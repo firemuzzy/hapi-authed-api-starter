@@ -1,0 +1,2 @@
+#datastore: gcloud beta emulators datastore start --host-port localhost:8080 --data-dir datastore_dir
+datastore-testing: bin/gcd/gcd.sh start --testing

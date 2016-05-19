@@ -1,0 +1,26 @@
+{
+  "name": "hapi-authed-api-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-as-promised": "^1.1.0",
+    "chai": "^3.5.0",
+    "code": "^2.3.0",
+    "faker": "^3.1.0",
+    "gcloud": "^0.33.0",
+    "hapi": "^13.4.0",
+    "joi": "^8.1.0",
+    "jsonwebtoken": "^6.2.0",
+    "jsonwebtoken-promisified": "^1.0.3",
+    "pretty-print": "^1.1.0"
+  },
+  "devDependencies": {
+    "lab": "^10.5.1"
+  }
+}

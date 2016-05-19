@@ -31,3 +31,13 @@ node_modules
 
 # Optional REPL history
 .node_repl_history
+
+# Foreman config file
+.env
+
+# keys file
+keys
+
+# gcd
+bin/gcd
+datastore_dir
