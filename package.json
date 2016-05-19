@@ -15,6 +15,7 @@
     "faker": "^3.1.0",
     "gcloud": "^0.33.0",
     "hapi": "^13.4.0",
+    "inject-then": "^2.0.5",
     "joi": "^8.1.0",
     "jsonwebtoken": "^6.2.0",
     "jsonwebtoken-promisified": "^1.0.3",

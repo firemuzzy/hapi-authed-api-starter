@@ -132,6 +132,8 @@ class UserDao {
       data.defaultEmail = uniqueEmail.key.name
       
       return this.updateUser(user.key.id, data)
+    }).then( (user) => {
+      return jwt.signAsync({userId: user.key.id}, this.secret).then( token => { return {user:user, token:token} })
     })
   }
   
